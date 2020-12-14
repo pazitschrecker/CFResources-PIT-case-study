@@ -1,0 +1,15 @@
+.section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4rem;
+}
+
+.sub-section {
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+}
+
+.sub-title {
+  font-style: italic;
+}
