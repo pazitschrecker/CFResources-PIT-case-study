@@ -13,3 +13,16 @@
 .sub-title {
   font-style: italic;
 }
+
+.sub-img {
+  display: flex;
+  flex-direction: row;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+hr {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
