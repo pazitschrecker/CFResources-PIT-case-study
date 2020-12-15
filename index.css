@@ -34,14 +34,14 @@
   align-self: flex-start;
   width: 4rem;
   margin-left: 1rem;
+  border-bottom: 3px solid #81b3e9;
 }
 hr {
-  width: 4rem;
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-self: flex-start;
   align-self: flex-start;
-  border: 3px solid #81b3e9;
+  color: white;
 }
 
 h1 {
@@ -95,6 +95,7 @@ h3 {
   color: #81b3e9;
   text-transform: uppercase;
   letter-spacing: 2px;
+  margin-bottom: 1rem;
 }
 
 .green-gradient {
@@ -108,6 +109,7 @@ h3 {
   font-size: 65px;
   line-height: 97px;
   color: #ffffff;
+  margin-right: 1rem;
 }
 
 .jumbotron-subtitle {
@@ -119,4 +121,31 @@ h3 {
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+.jumbotron-sub-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-thin {
+  padding-top: 0;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.prototypes-img {
+  box-shadow: 6px 6px #46515d;
+}
+
+.col-img {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.img-section {
+  display: flex;
+  flex-direction: row;
 }
