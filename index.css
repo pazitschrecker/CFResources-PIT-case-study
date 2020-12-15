@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   min-width: 40%;
+  margin: 1rem;
 }
 
 .sub-title {
@@ -21,8 +22,79 @@
   max-width: 100%;
 }
 
+.hr-wrapper {
+  align-items: flex-start;
+  align-self: flex-start;
+  width: 4rem;
+  /*border: 3px solid #81b3e9;*/
+  margin-left: 2rem;
+}
 hr {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-start;
+  align-self: flex-start;
+  border: 3px solid #81b3e9;
+}
+
+h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 49px;
+  line-height: 73px;
+  color: #81b3e9;
+}
+
+h2 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 45px;
+  color: #46515d;
+}
+
+body {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.small-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #81b3e9;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.green-gradient {
+  background: linear-gradient(180deg, #97c3cc 0%, #8dcdcf 100%);
+}
+
+.jumbotron-header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 65px;
+  line-height: 97px;
+  color: #ffffff;
+}
+
+.jumbotron-subtitle {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
