@@ -102,6 +102,16 @@ h3 {
   background: linear-gradient(180deg, #97c3cc 0%, #8dcdcf 100%);
 }
 
+h1.jumbotron-header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 65px;
+  line-height: 97px;
+  color: #ffffff;
+  margin-right: 1rem;
+}
+
 .jumbotron-header {
   font-family: Poppins;
   font-style: normal;
@@ -148,4 +158,38 @@ h3 {
 .img-section {
   display: flex;
   flex-direction: row;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none !important;
+  filter: none !important;
+  color: #46515d;
+}
+
+.carousel-img {
+  border: 1px solid #46515d;
+}
+
+.video {
+  width: 800px;
+  height: 450px;
+}
+
+@media only screen and (max-width: 800px) {
+  .video {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .video {
+    width: 300px;
+    height: 175px;
+  }
+}
+
+.center {
+  align-items: center;
 }
