@@ -272,9 +272,15 @@ h1.jumbotron-header {
   justify-content: center;
   padding-left: 6rem;
   background-color: rgb(141, 205, 207, 0.4);
+  margin-bottom: 6rem;
 }
 
 .tabs-wrapper {
   align-items: center;
   justify-content: center;
+}
+
+.sub-img-margin {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 }
