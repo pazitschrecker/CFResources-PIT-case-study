@@ -37,6 +37,7 @@
 
     <link rel="stylesheet" type="text/css" href="index.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="icon" href=img/favicon.svg>
 
     <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
@@ -48,7 +49,7 @@
   <body>
     <nav class="navbar navbar-expand navbar-light navbar-thin">
       <a class="navbar-brand" href="#title"
-        ><i class="fas fa-hands-helping"></i
+        ><i class="fas fa-seedling icon"></i></i
       ></a>
       <button
         class="navbar-toggler"
@@ -107,18 +108,26 @@
       </div>
     </nav>
 
-    <div class="jumbotron jumbotron-fluid green-gradient">
-      <div class="container section">
+    <div class="jumbotron remove-padding jumbotron-fluid green-gradient">
+      <div class="container section jumbotron-spacing">
         <div class="jumbotron-sub-section">
           <h1 class="jumbotron-header">Supporting Community Fridges</h1>
           <p class="lead jumbotron-subtitle">
             Knowledge Sharing in Mutual Aid Networks
           </p>
         </div>
-        <!--<div class="jumbotron-sub-section">
-          <img class="sub-img jumbotron-img" src="img/index.png" alt="" />
-        </div>-->
-      </div>
+        <div class="jumbotron-img-section">
+          <img class="jumbotron-img" src="img/jumbotron-image.png" alt="" />
+          <!-- <div class="imgWrapper">
+            <img src="img/jumbotron-image.png" alt="" />
+          </div>-->
+        </div>
+
+        <!--
+        <div class="jumbotron-sub-section img-wrapper">
+          <img class="jumbotron-img" src="img/jumbotron-image.png" alt="" />
+        </div>
+      --></div>
     </div>
 
     <div class="container">
@@ -178,37 +187,63 @@
       <div class="section">
         <div class="sub-section">
           <div class="small-text" id="research">Phase I: Research</div>
-          <h2>Research Title 1</h2>
-          <h3>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-          </h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum doloe
+          <p class="sub-title">
+            Guiding PIT Question: Is focusing on organizers and volunteers the
+            right approach? If not, what perspectives are missing from our
+            research?
           </p>
-          <div class="img-section">
-            <img class="col-img" src="img/research-img1.png" alt="" />
-            <img class="col-img" src="img/affinity-map.png" alt="" />
-          </div>
+          <h2>Background Research</h2>
+
+          <p>
+            Our research began with food insecurity, when a household has
+            limited or uncertain access to food. We focused our background
+            research on news articles and reports from NYC based organizations,
+            all of which were citing similar data that revealed food insecurity
+            has dramatically increased due to the pandemic. During the pandemic
+            in NYC, there has also been an amazing increase in mutual aid, or
+            community members helping and supporting one another without stigma
+            associated with charity. A mutual aid project to combat food
+            insecurity that grew in popularity during the pandemic are community
+            fridges, refrigerators located in a public space that provide fresh
+            free food to community members. The fridge is restocked by community
+            members (also known as community fridge organizers) and is open to
+            everyone, functioning in a policy of “Take what you need, leave what
+            you can.”
+          </p>
+
+          <br /><br />
+          <p>
+            After identifying community fridges in NYC as an area of interest,
+            we looked at articles to learn the details of how community fridges
+            operate and if technology could support them. Many of the articles
+            we found were features of community fridge organizers posted this
+            summer when the movement first began receiving attention from
+            websites like the New York Times.
+          </p>
         </div>
       </div>
       <div class="section">
         <div class="sub-section">
-          <h2>Research Title 2</h2>
-          <h3>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-          </h3>
+          <h2>Engagement</h2>
+
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum doloe
+            Since community fridges are a relatively new movement, there is a
+            sparse amount of information available about them online and once we
+            had gone through it all, we turned to Instagram to get in contact
+            with fridge organizers. Instagram is the primary platform where
+            community fridge organizers will post information and updates about
+            their respective fridges. We began by documenting all the community
+            fridge instagram accounts we came across and DM’ing them to request
+            interviews to learn more about their work.
+          </p>
+          <br /><br />
+          <p>
+            Through interviews, we quickly learned that community fridges are
+            autonomous and decentralized, so each fridge operates and organizes
+            itself differently. Despite differences in how fridges operate,
+            there are common tasks that each fridge undertakes in order to
+            provide food to community members and we designed a diagram of the
+            Community Fridge Process to visualize these core commonalities.
           </p>
         </div>
       </div>
@@ -220,17 +255,30 @@
       <div class="section">
         <div class="sub-section">
           <div class="small-text" id="synthesis">Phase II: Synthesis</div>
-          <h2>Synthesis Title 1</h2>
+          <h2>Synthesis: Tracing HMWs</h2>
           <h3>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum doloe
+            After interviewing ten community fridge organizers and creating four
+            user journey maps, we came up with a list of 14 themes that captured
+            common pain points in the community fridge process. In order to
+            narrow these themes to the most relevant few, we designed an
+            affinity map that grouped insightful quotes from all ten interviews
+            based on the theme they expressed. With the help of the affinity
+            map, we were able to identify eight themes that had been brought up
+            the most in interviews and from there we ideated on one way we could
+            potentially target or address this theme. We also looked at previous
+            solutions to these themes and identified the pros and cons of each.
+            Once we had a more comprehensive picture of the needs and obstacles
+            of community organizers, as well as potential solutions, we
+            developed three How Might We statements that captured overarching
+            themes we felt we could meaningfully address this semester. For each
+            How Might We, we brainstormed 30 ideas and used a mindmap to
+            visualize where they branch off from one another. We then narrowed
+            them down to five coherent and varied ideas per How Might We and
+            identified the risks of each.
           </p>
           <img
             src="https://cms-assets.themuse.com/media/lead/_1200x630_crop_center-center_82_none/15498.jpg?mtime=1568749653"
@@ -324,7 +372,7 @@
       </div>
 
       <!--CAROUSEL-->
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div id="myCarousel" class="carousel slide section" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -334,40 +382,42 @@
         </ol>
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-          <div class="item active">
-            <img
-              src="img/prototype1.png"
-              alt="Los Angeles"
-              style="width: 100%"
-              class="carousel-img"
-            />
-          </div>
+        <div class="carousel-inner-wrapper">
+          <div class="carousel-inner">
+            <div class="item active">
+              <img
+                src="img/prototype1.png"
+                alt="Los Angeles"
+                style="width: 100%"
+                class="carousel-img"
+              />
+            </div>
 
-          <div class="item">
-            <img
-              src="img/prototype2.png"
-              alt="Chicago"
-              style="width: 100%"
-              class="carousel-img"
-            />
-          </div>
+            <div class="item">
+              <img
+                src="img/prototype2.png"
+                alt="Chicago"
+                style="width: 100%"
+                class="carousel-img"
+              />
+            </div>
 
-          <div class="item">
-            <img
-              src="img/prototype3.png"
-              alt="New york"
-              style="width: 100%"
-              class="carousel-img"
-            />
-          </div>
-          <div class="item">
-            <img
-              src="img/prototype4.png"
-              alt="New york"
-              style="width: 100%"
-              class="carousel-img"
-            />
+            <div class="item">
+              <img
+                src="img/prototype3.png"
+                alt="New york"
+                style="width: 100%"
+                class="carousel-img"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="img/prototype4.png"
+                alt="New york"
+                style="width: 100%"
+                class="carousel-img"
+              />
+            </div>
           </div>
         </div>
 
@@ -412,7 +462,7 @@
     </div>
 
     <div class="container">
-      <div class="section">
+      <!--<div class="section">
         <div class="sub-section">
           <div class="small-text" id="features">Key Features</div>
           <h2>Product Walkthrough</h2>
@@ -493,7 +543,7 @@
             reprehenderit in voluptate velit esse cillum doloe
           </p>
         </div>
-      </div>
+      </div>-->
 
       <div class="section">
         <div class="sub-section">
@@ -528,16 +578,15 @@
           </p>
         </div>
       </div>
-      <div class="section center">
-        <div class="sub-section">
-          <iframe
-            class="video"
-            src="https://www.youtube.com/embed/EvviRT_Z9j4"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
+
+      <div class="videoWrapper">
+        <iframe
+          width="560"
+          height="349"
+          src="https://www.youtube.com/embed/EvviRT_Z9j4"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
       </div>
 
       <div class="section">

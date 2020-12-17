@@ -1,7 +1,7 @@
 .section {
   display: flex;
   flex-direction: row;
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 }
 
 .sub-section {
@@ -75,6 +75,7 @@ body {
 html {
   max-width: 100%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 h3 {
@@ -98,6 +99,9 @@ h3 {
   margin-bottom: 1rem;
 }
 
+.jumbotron-spacing {
+  padding: 4rem 4rem 0 4rem;
+}
 .green-gradient {
   background: linear-gradient(180deg, #97c3cc 0%, #8dcdcf 100%);
 }
@@ -136,11 +140,34 @@ h1.jumbotron-header {
 .jumbotron-sub-section {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 960px) {
+  .jumbotron-img {
+    display: none;
+  }
+}
+
+.jumbotron-img-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 4rem 0 0 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.jumbotron-img {
+  max-width: 100%;
 }
 
 .navbar-thin {
   padding-top: 0;
   padding-bottom: 0;
+  margin-bottom: 0;
   text-transform: uppercase;
   font-size: 14px;
 }
@@ -171,25 +198,51 @@ h1.jumbotron-header {
   border: 1px solid #46515d;
 }
 
-.video {
-  width: 800px;
-  height: 450px;
-}
-
-@media only screen and (max-width: 800px) {
-  .video {
-    width: 400px;
-    height: 225px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .video {
-    width: 300px;
-    height: 175px;
-  }
-}
-
 .center {
   align-items: center;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #46515d;
+}
+
+.imgWrapper {
+  max-width: 90%;
+  display: inline-block;
+  bottom: 0;
+}
+
+.imgWrapper img {
+  width: 100%;
+  bottom: 0;
+}
+
+.remove-padding {
+  padding: 0;
+}
+
+.carousel-inner-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-inner {
+  max-width: 70%;
+}
+
+.icon {
+  font-family: "Font Awesome 5 Free";
+  font-size: 40px;
+  color: #8dcdcf;
 }
