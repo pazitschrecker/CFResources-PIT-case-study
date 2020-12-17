@@ -48,9 +48,7 @@
 
   <body>
     <nav class="navbar navbar-expand navbar-light navbar-thin">
-      <a class="navbar-brand" href="#title"
-        ><i class="fas fa-seedling icon"></i></i
-      ></a>
+      <a class="navbar-brand" href="#"><i class="fas fa-seedling icon"></i></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -71,9 +69,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#overview">Overview</a>
           </li>
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <a class="nav-link" href="#features">Features</a>
-          </li>
+          </li>-->
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -102,7 +100,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#test">Reflecting</a>
+            <a class="nav-link" href="#reflecting">Reflecting</a>
           </li>
         </ul>
       </div>
@@ -210,8 +208,131 @@
             everyone, functioning in a policy of “Take what you need, leave what
             you can.”
           </p>
+        </div>
+      </div>
+    </div>
 
-          <br /><br />
+    <div class="jumbotron jumbotron-fluid nav-jumbotron">
+      <ul class="nav nav-tabs" id="myTab-research" role="tablist">
+        <li class="nav-item active">
+          <a
+            class="nav-link prototype-tab"
+            id="uj1-tab"
+            data-toggle="tab"
+            href="#uj1"
+            role="tab"
+            aria-controls="uj1"
+            aria-selected="false"
+            >Organizing Restocking</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link prototype-tab"
+            id="uj2-tab"
+            data-toggle="tab"
+            href="#uj2"
+            role="tab"
+            aria-controls="uj2"
+            aria-selected="false"
+            >Restocking</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link prototype-tab"
+            id="uj3-tab"
+            data-toggle="tab"
+            href="#uj3"
+            role="tab"
+            aria-controls="uj3"
+            aria-selected="false"
+            >Fridge Maintenance
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link prototype-tab"
+            id="uj4-tab"
+            data-toggle="tab"
+            href="#uj4"
+            role="tab"
+            aria-controls="uj4"
+            aria-selected="false"
+            >Organizing Donations</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link prototype-tab"
+            id="cf-process-tab"
+            data-toggle="tab"
+            href="#cf-process"
+            role="tab"
+            aria-controls="cf-process"
+            aria-selected="false"
+            >Community Fridge Process</a
+          >
+        </li>
+      </ul>
+      <div class="tabs-wrapper">
+        <div class="tab-content tab-style" id="myTabContent-synthesis">
+          <div
+            class="tab-pane active"
+            id="uj1"
+            role="tabpanel"
+            aria-labelledby="templates-prototype-tab"
+          >
+            <img
+              class="tabs-img"
+              src="img/uj1.png"
+              alt="Image Templates Page prototype"
+            />
+          </div>
+          <div
+            class="tab-pane"
+            id="uj2"
+            role="tabpanel"
+            aria-labelledby="template-builder-tab"
+          >
+            <img
+              class="tabs-img"
+              src="img/uj2.png"
+              alt="Image Templates Page prototype"
+            />
+          </div>
+          <div
+            class="tab-pane"
+            id="uj3"
+            role="tabpanel"
+            aria-labelledby="guides-tab"
+          >
+            <img class="tabs-img" src="img/uj3.png" alt="" />
+          </div>
+          <div
+            class="tab-pane"
+            id="uj4"
+            role="tabpanel"
+            aria-labelledby="home-tab"
+          >
+            <img class="tabs-img" src="img/uj4.png" alt="" />
+          </div>
+
+          <div
+            class="tab-pane"
+            id="cf-process"
+            role="tabpanel"
+            aria-labelledby="cf-process-tab"
+          >
+            <img class="tabs-img" src="img/cf-process.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <div class="sub-section">
           <p>
             After identifying community fridges in NYC as an area of interest,
             we looked at articles to learn the details of how community fridges
@@ -256,10 +377,10 @@
         <div class="sub-section">
           <div class="small-text" id="synthesis">Phase II: Synthesis</div>
           <h2>Synthesis: Tracing HMWs</h2>
-          <h3>
+          <!--<h3>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-          </h3>
+          </h3>-->
           <p>
             After interviewing ten community fridge organizers and creating four
             user journey maps, we came up with a list of 14 themes that captured
@@ -280,12 +401,10 @@
             them down to five coherent and varied ideas per How Might We and
             identified the risks of each.
           </p>
-          <img
-            src="https://cms-assets.themuse.com/media/lead/_1200x630_crop_center-center_82_none/15498.jpg?mtime=1568749653"
-            alt=""
-          />
         </div>
       </div>
+
+      <!--
       <div class="section">
         <div class="sub-section">
           <h2>Synthesis Title 2</h2>
@@ -301,7 +420,7 @@
             reprehenderit in voluptate velit esse cillum doloe
           </p>
         </div>
-      </div>
+      </div>-->
 
       <div class="hr-wrapper">
         <hr />
@@ -370,67 +489,104 @@
           </p>
         </div>
       </div>
+    </div>
 
-      <!--CAROUSEL-->
-      <div id="myCarousel" class="carousel slide section" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner-wrapper">
-          <div class="carousel-inner">
-            <div class="item active">
-              <img
-                src="img/prototype1.png"
-                alt="Los Angeles"
-                style="width: 100%"
-                class="carousel-img"
-              />
-            </div>
-
-            <div class="item">
-              <img
-                src="img/prototype2.png"
-                alt="Chicago"
-                style="width: 100%"
-                class="carousel-img"
-              />
-            </div>
-
-            <div class="item">
-              <img
-                src="img/prototype3.png"
-                alt="New york"
-                style="width: 100%"
-                class="carousel-img"
-              />
-            </div>
-            <div class="item">
-              <img
-                src="img/prototype4.png"
-                alt="New york"
-                style="width: 100%"
-                class="carousel-img"
-              />
-            </div>
-          </div>
+    <div class="jumbotron jumbotron-fluid nav-jumbotron">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item active">
+          <a
+            class="nav-link prototype-tab"
+            id="templates-prototype-tab"
+            data-toggle="tab"
+            href="#templates-prototype"
+            role="tab"
+            aria-controls="templates-prototype"
+            aria-selected="false"
+            >Templates</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link prototype-tab"
+            id="template-builder-tab"
+            data-toggle="tab"
+            href="#template-builder"
+            role="tab"
+            aria-controls="template-builder"
+            aria-selected="false"
+            >Template Builder</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link prototype-tab"
+            id="home-tab"
+            data-toggle="tab"
+            href="#guides"
+            role="tab"
+            aria-controls="guides"
+            aria-selected="false"
+            >Guides</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link prototype-tab"
+            id="home-tab"
+            data-toggle="tab"
+            href="#home"
+            role="tab"
+            aria-controls="home"
+            aria-selected="false"
+            >Guides</a
+          >
+        </li>
+      </ul>
+      <div class="tab-content tab-style" id="myTabContent">
+        <div
+          class="tab-pane active"
+          id="templates-prototype"
+          role="tabpanel"
+          aria-labelledby="templates-prototype-tab"
+        >
+          <img
+            class="tabs-img"
+            src="img/prototype1.png"
+            alt="Image Templates Page prototype"
+          />
         </div>
-
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
+        <div
+          class="tab-pane"
+          id="template-builder"
+          role="tabpanel"
+          aria-labelledby="template-builder-tab"
+        >
+          <img
+            class="tabs-img"
+            src="img/prototype2.png"
+            alt="Image Templates Page prototype"
+          />
+        </div>
+        <div
+          class="tab-pane"
+          id="guides"
+          role="tabpanel"
+          aria-labelledby="guides-tab"
+        >
+          <img class="tabs-img" src="img/prototype3.png" alt="" />
+        </div>
+        <div
+          class="tab-pane"
+          id="home"
+          role="tabpanel"
+          aria-labelledby="home-tab"
+        >
+          <img class="tabs-img" src="img/prototype4.png" alt="" />
+        </div>
       </div>
+    </div>
 
+    <div class="container">
       <div class="section">
         <div class="sub-section">
           <div class="small-text">Design Opportunity</div>
@@ -637,16 +793,75 @@
         <div class="sub-section">
           <div class="small-text" id="reflecting">Reflecting</div>
           <h2>PIT Design Process Reflection</h2>
-          <p class="sub-title">
+          <!--<p class="sub-title">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-          </p>
+          </p>-->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum doloe
+            The Double diamond design process created a structure that allowed
+            us to anticipate what was coming next, yet at the same time we found
+            it to be difficult to not move ahead. When the team was trying to
+            conduct interviews to identify problems, we were also thinking ahead
+            and asking about solutions when we should not have remained focused
+            on the define stage. We had to step back and remain within the
+            structure. We needed to remember to not jump ahead before we fully
+            explore the problem.
+          </p>
+          <br />
+          <p>
+            This brings us to our group’s key takeaway from the PIT design
+            process.Throughout this process, we learned that there are different
+            priorities within the target users and that they have different
+            needs and wants and our prototype was not going to be able to
+            accommodate everyone’s needs equally.
+          </p>
+          <br />
+          <p>
+            As we went through the design process, there were different user
+            groups that were drawn to different solutions, and we realized that
+            we wouldn’t be able to solve every need that we found. Instead, we
+            had to decide which subset of the user group we wanted to have an
+            impact on in order to focus our solution on their needs. More
+            specifically, in our case, when we discovered there was a divide in
+            what the white, male organizers’ needs vs. younger, biopic female
+            organizers, we decided to focus on the latter to meet the needs of a
+            group whose voices aren’t heard as loudly. As such, we decided to
+            focus on the living resource guide over the scheduling app, although
+            we knew there would be tradeoffs in whose needs would be met. Rather
+            than solving for everyone’s needs and broadening the scope of our
+            solution too large, we focused on a subset of our user group in
+            order to more effectively meet their needs.
+          </p>
+          <br />
+          <p>
+            Taking a public interest approach to our design allowed for us to
+            engage with the target audience earlier then we may have. This
+            allowed us to have a more impactful design process and ultimately a
+            better understanding of the problem and the community fridge
+            network. This process can be frustrating, and it may appear lineral
+            but stepping back and forth between phases helps work through
+            confusion and can lead to more defined solutions.
+          </p>
+          <br />
+          <p>
+            While there were other “fancier” solutions we considered that
+            could’ve been more interesting to look at, we ultimately decided to
+            focus on a simpler, living resource guide that met the needs of our
+            user. Furthermore, we wanted to consistently keep in mind what
+            technology our users had access to, since public interest technology
+            should first and foremost be accessible to our users.
+          </p>
+          <br />
+          <p>
+            Our ultimate goal of public interest technology was to help the
+            community, so we wanted to always make sure our interests were
+            aligned with their needs. One of the most important elements of our
+            design process was consistently empathizing with our users by going
+            back to them at every step. For example, one thing we always kept in
+            mind was keeping the mutual-aid framework of community fridges and
+            respecting their desires to keep the decentralized system. Rather
+            than asserting our own opinions, we made sure our goals were aligned
+            with our communitys'.
           </p>
         </div>
       </div>
@@ -657,21 +872,17 @@
         <div class="sub-section">
           <div class="small-text">Giving Thanks</div>
           <h2>Acknowledgements</h2>
-          <p class="sub-title">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-          </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum doloe
+            We would like to thank the numerous community fridge organizers who
+            were willing to speak to us multiple times in order to bring this
+            design together. Thank you to Danl from Mott Haven Community Fridge,
+            Genesis from Jamaica Community Fridge, SG from the Uptown Fridge,
+            Ernest from Freedge, and organizers from the Chelsea Fridge, 120MMM,
+            Laurelton Fridge, and Harlem fridge. We would also like to thank
+            Celeste Layne for mentoring us throughout this semester.
           </p>
         </div>
       </div>
-
-      <div class="section"><p>Thank you</p></div>
     </div>
   </body>
 </html>
