@@ -60,4 +60,9 @@ $(document).ready(function () {
     $("hi-fi").addClass("active");
     console.log("showing hi-fi");
   });
+
+  $("#expand-navs").click(function () {
+    console.log("trying to toggle");
+    $("#navbarSupportedContent").toggle();
+  });
 });
