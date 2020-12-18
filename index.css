@@ -18,6 +18,26 @@
     display: flex;
     flex-direction: column;
   }
+  .section {
+    margin-bottom: 6rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+  .not-on-mobile {
+    display: none;
+  }
+  .hr-wrapper {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+}
+
+@media only screen and (min-width 601px) {
+  .only-on-mobile {
+    display: none;
+  }
 }
 
 .sub-title {
