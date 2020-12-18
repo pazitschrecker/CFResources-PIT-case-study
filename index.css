@@ -40,6 +40,14 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  h1.phone-header {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+  }
+}
 .sub-title {
   font-style: italic;
 }
