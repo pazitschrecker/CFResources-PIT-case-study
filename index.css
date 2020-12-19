@@ -108,6 +108,17 @@ h2 {
   margin-top: 1rem;
 }
 
+h2.in-jumbotron {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  color: #ffffff;
+
+  text-transform: uppercase;
+}
+
 body {
   font-family: Open Sans;
   font-style: normal;
